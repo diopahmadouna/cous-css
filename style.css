@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0 px;
+    padding: 0 px;
+}
+body{
+    font-family: serif;
+    background: url(./assets/img.jpg) no-repeat fixed center/cover;
+    height: 100vh;
+}
+nav{
+    background: floralwhite;
+    padding: 10px;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    width: 150px;
+    height: 40PX;
+    right: 10px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 2.5rem;
+    /*color: brown;*/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 3px 0px rgba(160, 221, 196, 0.726);
+
+}
+.test{
+    color: blue;
+}
+p{
+    color: aqua;
+    font-size: larger;
+    font-weight: 200;
+    background: bisque;
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 2.5rem;
+    /*color: brown;*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif,
+}
+#cirle{
+    color: brown;
+    font-size: medium;
+    font-weight: 200;
+    background: skyblue;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    height: 60px;
+    box-shadow: 0 12px 5px rgba(51, 51, 51, 0.904)
+}
+
+#rectangle{
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    background-color: darkblue;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    height: 60px;
+    top: 10px;
+    right: 100px;
+}
+
+h4{
+    text-decoration: dotted;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: darkred;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+#title{
+    color: lightseagreen;
+    font-size: medium;
+}
+#pp{
+    color: aliceblue;
+    background-color: black;
+}
+.pays{
+    color: coral;
+    background-color: black;
+}
+.metre{
+    color: coral;
+    background-color: black;
+}
+
+h5{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 200;
+    font-family: fantasy;
+}
+#lien{
+    background-color: azure;
+    font-size: medium;
+}
+#icone{
+    background-color: chartreuse;
+    font-size: medium;
+}
+
+h6{
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: 200px;
+    font-size: medium;
+}
+#vid{
+    border-radius: 20px;
+}
+
+#name{
+    color: darkred;
+}
+#age{
+    color: darkred;
+}
+#genre{
+    color: darkred;
+}
+#zone{
+    background-color: aqua;
+    border-top-left-radius:  20px;
+}
+#valid{
+    background-color: green;
+}
+
+.foot{
+    background-color: beige;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    height: 60px;
+    right: 10px;
+    text-decoration-color: darkgoldenrod;
+
+
+}

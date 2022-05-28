@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+	 initial-scale=1.0">
+    <!-- le titre de la page -->
+    <title>cours-html</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icone de l'onglet -->
+    <link rel="stylesheet" href="logo-html.png">
+</head>
+
+<body>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/python/">Python</a>
+    </nav>
+        
+    <header> 
+        <h1 class="test">Texte - titre H1</h1>
+        <p class="test">Texte basique . <em>voici un texte en italique</em>. <strong>
+            Et un texte en gras
+        </strong>. <span>L'élément en span ne revient pas à la ligne</span>. </p>
+        <p class="test">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </header>
+    <section>
+        <div class="positioning">   
+            <h2 class="test">photos -Titre </h2>
+            <img src="photo-paysage.jpg" height="200" alt="image-paysage">
+        </div>
+        <div>     
+            <h3 class="test">Listes - Titre - H3</h3>
+            <UL id="cirle">
+                <li>UL = unordered List</li>
+                <li>UL = unordered List</li>
+                <li>UL = unordered List</li>
+            </UL>
+            <ol id="rectangle">
+                <li>ol = ordered list</li>
+                <li>ol = ordered list</li>
+                <li>ol = ordered list</li>
+            </ol>
+        </div>
+        <div>      
+            <h4 class="test">Tableau - Titre H4</h4>
+            <table border="1" widht="200%">
+                <!-- legende -->
+                <caption id="title">les populations d'Afrique</caption>
+                <!-- En-tete -->
+                <thead>
+                    <tr id="pp">
+                        <th>pays</th>
+                        <th>populations</th>
+                    </tr>
+                </thead>
+               <!-- corps du tableau -->
+               <tbody>
+                   <tr>
+                       <td class="pays">Senegal</td>
+                       <td class="metre">18M</td>
+                   </tr>
+                   <tr>
+                    <td class="pays">Ghana</td>
+                    <td class="metre">30M</td>
+                </tr>
+                <tr>
+                    <td class="pays">Cameroun</td>
+                    <td class="metre">26M</td>
+                </tr>
+               </tbody>
+
+
+            </table>
+        </div>        
+            <h5 class="test"> Liens - Titre  H5</h5>
+            <a id="lien" href="https://htmlcheatsheet.com/"
+            target="-blank">HTML Cheat sheet</a>
+            <br>
+            <a id="icone" href="https://www.toptal.com/designers/htmlarrows/symbols/" target="-blank">icone en HTML</a>
+        </div>    
+            <h6 class="test">vidéo - Titre H6</h6>
+            <video id="vid" src="vidéo.mp4" height="150" autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+    <!-- formulaire -->
+    <section>
+        <h2>Formulaire</h2>
+        <form action="/action.php" method="post"></form>
+        <label id="name" for="name">Nom</label><input  id="name" type="text" placeholder="Entrez votre nom"><br>
+        <label id="age" for="age">Age</label>
+        <input id="age" type="number" min="0" max="99" step="1" value="18"><br>
+
+        <!-- input select -->
+        <label id="genre" for="gender">Genre</label>
+        <select id="gender">
+            <option value="homme">Homme</option>
+            <option selected value="femme">Femme</option>
+        </select><br>
+
+        <!-- input radio-->
+        <div >
+            <input type="radio" name="type" id="human">
+            <label for="human">Humain</label>
+
+
+            <input type="radio" name="type" checked id="dog">
+            <label for="human">chien</label>
+
+            <input type="radio" name="type" id="cat">
+            <label for="human">chat</label>
+        </div>
+
+        <textarea id="zone" cols="25" rows="10" placeholder=" Entrez votre demande ici"></textarea><br>
+
+       <!-- input checkbox -->
+       <label ></label><input type="checkbox" />Acceptez les CGV</label><br>
+       <input id="valid" type="submit" value="Valider">
+       <form>
+    </section>
+    <br>
+    <!-- Mail & envoi de fichier -->
+    <footer class="foot">
+        <a href="mailto:mouridoulahi94@gmail.com">Ecrivez moi !</a>
+        <br>
+        <a href="notice.tex"
+        download="nom-du-fichier">Telecharger la notice</a>
+    </footer>
+</body>
+
+</html>
