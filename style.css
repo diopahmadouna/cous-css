@@ -6,7 +6,7 @@
 }
 body{
     font-family: serif;
-    background: url(./assets/img.jpg) no-repeat fixed center/cover;
+    background: url(./media/img.jpg) no-repeat fixed center/cover;
     height: 100vh;
 }
 nav{
